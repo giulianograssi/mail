@@ -7,7 +7,9 @@ import Setup from './views/Setup';
 Vue.use(Router)
 
 export default new Router({
-	mode: 'history',
+	// Disabled history mode to enable having routes on frontend
+	// that are not defined in routes.php e.g. /setup
+	// mode: 'history',
 	base: OC.generateUrl('/apps/mail/'),
 	linkActiveClass: 'active',
 	routes: [

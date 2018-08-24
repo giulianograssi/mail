@@ -21,6 +21,11 @@
 		"last 2 versions",
 		"not ie <= 11"
 	],
+	"prettier": {
+		"singleQuote": true,
+		"tabWidth": 4,
+		"useTabs": true
+	},
 	"devDependencies": {
 		"babel-core": "^6.26.3",
 		"babel-loader": "^7.1.4",

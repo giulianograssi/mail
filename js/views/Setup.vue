@@ -1,12 +1,21 @@
 <template>
 	<div id="content" class="mail">
-		<app-navigation :menu="menu"/>
-		TODO: Implement settings view
+		<div id="app-content">
+			<div class="container">
+				<div id="setup-content container">
+					<account-form />
+				</div>
+			</div>
+		</div>
 	</div>
 </template>
 
 <script>
+	import AccountForm from "../components/AccountForm";
 	export default {
-		name: "Setup"
+		name: "Setup",
+		components: {
+			AccountForm
+		}
 	}
 </script>
